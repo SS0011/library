@@ -1,9 +1,9 @@
 import React from 'react'
 
-function CustomInput() {
+function CustomInput({placeHolder}) {
   return (
     <div>
-      <input/>
+      <input placeholder={placeHolder}/>
     </div>
   )
 }
